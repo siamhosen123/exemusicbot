@@ -57,7 +57,7 @@ module.exports = {
             }
 
             const embed = new EmbedBuilder()
-                .setTitle('📖 EXE Music Bot - Command List')
+                .setTitle('📖 EXE MUSIC BOT - COMMAND LIST')
                 .setColor(0x1DB954)
                 .setDescription(description)
                 .setFooter({ text: 'Developed by EXE SIAM | https://exesiam.pages.dev/' })
@@ -71,5 +71,6 @@ module.exports = {
         }
     }
 };
+
 
 
