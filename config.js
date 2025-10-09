@@ -31,7 +31,7 @@ class EnterpriseConfigurationManager {
              */
             lavalink: {
                 host: EnvironmentVariableProcessor.LAVALINK_HOST || "lava-v4.ajieblogs.eu.org", 
-                port: EnvironmentVariableProcessor.LAVALINK_PORT || 443,       
+                port: EnvironmentVariableProcessor.LAVALINK_PORT || 80,       
                 password: EnvironmentVariableProcessor.LAVALINK_PASSWORD || "https://dsc.gg/ajidevserver", 
                 secure: EnvironmentVariableProcessor.LAVALINK_SECURE === 'true' || false
             },
@@ -101,6 +101,7 @@ module.exports = primaryApplicationConfiguration;
  * Never share your bot token or database URI publicly!
  * Use environment variables in production!
  */
+
 
 
 
